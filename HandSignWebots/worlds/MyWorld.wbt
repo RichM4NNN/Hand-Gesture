@@ -1,0 +1,34 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/picaxe/microbot/protos/Microbot.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.41320006660577396 -0.00021797578032358897 0.9106402458949105 3.1632323245978453
+  position 4.269549723743887 1.020230794757441 0.38398271347456825
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -3.35 0
+  floorSize 20 20
+}
+Microbot {
+  hidden position_0_0 -442.07325307150285
+  hidden position_0_1 -571.6072064691685
+  hidden translation_4 0.0008696406579812577 0.0005010556839222247 5.3449802749905295e-06
+  hidden rotation_4 -0.06698935504346831 0.0030937034303948137 0.9977488939156711 9.546379555436605e-14
+  hidden translation_5 0.000869640576674352 -0.0005211333640806615 8.35206752403117e-06
+  hidden rotation_5 -0.028645806396618567 0.038926715942199465 0.9988313814462594 7.580307152080351e-14
+  hidden rotation_7 0 1 0 2.250281568931794
+  hidden rotation_8 0 1 0 6.120528823005763
+  translation 3.916715209052434 0.9804926578259199 0.021503241356136748
+  rotation -0.0013137370957509759 0.0009693321148937695 0.9999986672441592 1.8708228422771676
+  controller "my_microbot_controller"
+}
